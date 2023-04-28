@@ -27,7 +27,7 @@ const UpdateEmployee = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [employee.id]);
 
   const updateEmployee = (e) => {
     e.preventDefault();
