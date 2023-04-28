@@ -20,16 +20,16 @@ const Employee = ({ employee, deleteEmployee }) => {
         <div className="text-sm text-gray-500">{employee.email}</div>
       </td>
       <td className="text-right px-6 py-4 whitespace-nowrap font-medium text-sm">
-        <a
+        <button
           onClick={(e, id) => editEmployee(e, employee.id)}
           className="text-indigo-600 hover:text-indigo-800 px-4 hover:cursor-pointer">
           Edit
-        </a>
-        <a
+        </button>
+        <button
           onClick={(e, id) => deleteEmployee(e, employee.id)}
           className="text-indigo-600 hover:text-indigo-800 hover:cursor-pointer">
           Delete
-        </a>
+        </button>
       </td>
     </tr>
   );
