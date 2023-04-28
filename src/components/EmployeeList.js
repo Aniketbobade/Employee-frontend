@@ -7,7 +7,7 @@ const EmployeeList = () => {
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState(true);
-  const [employees, setEmployees] = useState(null);
+  const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {

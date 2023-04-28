@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL="http://localhost:8080/api/v1/employees";
+const BASE_URL="https://obnoxious-rice-production.up.railway.app/";
 
 
 class EmployeeService{
