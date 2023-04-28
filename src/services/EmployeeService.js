@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL="https://obnoxious-rice-production.up.railway.app/";
+const BASE_URL="https://curious-friend-production.up.railway.app/api/v1/employees";
 
 
 class EmployeeService{
