@@ -1,0 +1,26 @@
+/* write your css here */
+
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: wheat;
+    font-size: larger;
+    font-weight: 600;
+    padding: 5px;
+    margin: 5px;
+    font: bold;
+}
+.main-section{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 0.125rem;
+    font-size: 25px;
+}
